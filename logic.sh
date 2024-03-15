@@ -1,7 +1,7 @@
 #!/bin/bash
 
 age=30
-if [ "$age" -gt 18 ] && [ "$age" -lt 60 ]
+if [ "$age" -gt 18 ] && [ "$age" -lt 60 ] # if [[ "$age" -gt 18  &&  "$age" -lt 60  ]]
 then 
  echo " Valid age "
  else
